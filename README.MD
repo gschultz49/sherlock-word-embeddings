@@ -18,12 +18,13 @@ As mentioned before, this generator uses `gensim` to create the word embeddings.
 
 If you want to make your own vectors, you will need to pass in 3 arguments. These are:
 <br>
-1. A source file (i.e curated.txt)
-2. An output name for your vector file (skipgram.bin). This needs to have a '.bin' file extension
-3. An embedding type, either "cbow" or Continuous Bag of Words or "skip" for Skipgram.
-<br>    
-Then, run the command as follows:<br>
-`python embeddings.py <source_file> <output_name.bin> <'cbow' or 'skip'>`
+1. A source file (i.e `curated.txt`)
+2. An output name for your vector file (`skipgram.bin`). This needs to have a `.bin` file extension
+3. An embedding type, either `cbow` or Continuous Bag of Words or `skip` for Skipgram.
+<br>  
+
+Then, run the command such that:
+`python embeddings.py <source_file> <output_name.bin> <cbow or skip>`
 
 For example:
 `python embeddings.py "data/curated.txt" "skip_vectors.bin" "skip"`
@@ -31,13 +32,13 @@ For example:
 # More food for thought
 
 Word2Vec: https://deeplearning4j.org/word2vec.html
-<br>
+<br><br>
 Skip gram methodology : http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
-<br>
+<br><br>
 More on Gensim: https://radimrehurek.com/gensim/models/word2vec.html , https://machinelearningmastery.com/develop-word-embeddings-python-gensim/
-<br>
-Cosine Similarity: stackoverflow.com/questions/15173225/how-to-calculate-cosine-similarity-given-2-sentence-strings-python 
-<br>
+<br><br>
+Cosine Similarity: https://stackoverflow.com/questions/15173225/how-to-calculate-cosine-similarity-given-2-sentence-strings-python 
+<br><br>
 
 
 This project was made using Python 3.5.4
