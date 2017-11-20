@@ -19,7 +19,7 @@ As mentioned before, this generator uses `gensim` to create the word embeddings.
 If you want to make your own vectors, you will need to pass in 3 arguments. These are:
 <br>
 1. A source file (i.e `curated.txt`)
-2. An output name for your vector file (`skipgram.bin`). This needs to have a `.bin` file extension
+2. An output name for your vector file (`skipg_vectors.bin`). This needs to have a `.bin` file extension
 3. An embedding type, either `cbow` or Continuous Bag of Words or `skip` for Skipgram.
 <br>  
 
